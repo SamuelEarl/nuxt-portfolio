@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Site",
+  "author": "Sam Earl",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.3.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "nuxt": "^2.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-material-design-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "push-dir": "^0.4.1"
+  }
+}
